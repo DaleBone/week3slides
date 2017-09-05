@@ -12,8 +12,8 @@ public class Miles {
       double mpg = mpgCalc(miles, gas);
 
       //System.out.println("You got " + mpg + "per gallon for this trip.");
-        System.out.println(String.format("You got %f miles per gallon in your %s", mpg, "Toyota"));
-        //System.out.println(String.format("You got %.2f miles per gallon", mpg));
+        //System.out.println(String.format("You got %f miles per gallon in your %s", mpg, "Toyota"));
+        System.out.println(String.format("You got %.2f miles per gallon", mpg));
 
     }
 
